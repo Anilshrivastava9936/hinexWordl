@@ -21,7 +21,7 @@ const SellerLogin = () => {
             if (data.success) {
                 setIsSeller(true)
                 navigate('/seller')
-
+return toast.success(data.error)
             } else {
                 toast.error(data.message)
             }
