@@ -4,7 +4,7 @@ import Categories from '../components/Categories'
 import BestSeller from '../components/BestSeller'
 import BottomBanner from '../components/BottomBanner'
 import NewsLetter from '../components/NewsLetter'
-import AllProducts from './AllProducts';
+// import AllProducts from './AllProducts';
 // import Footer from '../components/Footer'
 
 
@@ -16,7 +16,7 @@ const Home = () => {
       <MainBanner  />
       <Categories />
       <BestSeller />
-    <ALLProducts/>
+{/*     <ALLProducts/> */}
       <BottomBanner />
       <NewsLetter />
 
